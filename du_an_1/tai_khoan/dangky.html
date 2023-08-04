@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../dangkydangnhap/dangky.css">
+</head>
+<body>
+
+  <form action="tai_khoan/dangky.php" method="post">
+    <div class="container">
+      <h1>Sign Up</h1>
+      <p>Please fill in </p>
+      <hr>
+  
+      <label for="email"><b>Email</b></label>
+     <input type="text" name="email" id="email" required>
+      <label for="diachi"><b>Địa chỉ</b></label>
+      <input type="text" placeholder="nhập địa chỉ" name="diachi" id="diachi" required>
+
+      <label for="sdt"><b>Số điện thoại</b></label>
+      <input type="text" placeholder="Nhập số điện thoại" name="sdt" required>
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+  
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+  
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+  
+  
+    
+
+       <input type="submit" value="ĐĂng Kí" name="dangky" id="dangky">
+     
+    </div>
+  </form>
+   
+</body>
+</html>
